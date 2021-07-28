@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "666341087086",
+    "project_id": "cursoutlemilio",
+    "storage_bucket": "cursoutlemilio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666341087086:android:9d909ef4e91d52ac18937f",
+        "android_client_info": {
+          "package_name": "com.example.dmm_exercise5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666341087086-2fhf0d0s0m7pfd53r5jdnrd2bssv8dqt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj6qaIiATfCh1KbF_P26EvQtzjF8nTP9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666341087086-2fhf0d0s0m7pfd53r5jdnrd2bssv8dqt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

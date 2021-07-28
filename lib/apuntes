@@ -1,0 +1,50 @@
+
+CODIGO CON ESTRUCTURA BASICA PARA UN MATERIAL APP
+
+import 'package:flutter/material.dart';
+
+class SignUp extends StatelessWidget{
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(),
+      body: Container(),
+      //floatingActionButton: FloatingActionButton(onPressed: () {  }, child: Icon(Icons.thumb_up),),
+
+    );
+  }
+
+}
+
+//PLANTILLA MAS COMPLETA
+import 'package:flutter/material.dart';
+
+class SignUp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        elevation: 0,
+        backgroundColor: Colors.transparent,
+        leading: IconButton(
+          onPressed: () {
+            Navigator.pop(context);
+          },
+          icon: Icon(
+            Icons.arrow_back_ios,
+            color: Color.fromRGBO(39, 59, 122, 1),
+            size: 24,
+          ),
+        ),
+      ),
+      body: SingleChildScrollView(
+        child: Container(
+          padding: EdgeInsets.symmetric(horizontal: 40),
+          height: MediaQuery.of(context).size.height-50,
+          width: double.infinity,
+
+        ),
+      )
+    );
+  }
+}
